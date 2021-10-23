@@ -38,13 +38,12 @@
 
 <body>
 
-  <section id="title">
-
+  <section id="main-section">
     <!-- Nav Bar -->
     <div class="container-fluid">
 
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#main-section">
           <i class="fas fa-seedling"></i>
           speech-ai
         </a>
@@ -55,16 +54,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#main-section">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Play</a>
+              <a class="nav-link" href="#">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
@@ -79,32 +81,108 @@
             <h2 class="line-content">Confidence.</h2>
           </div>
           <button class="btn btn-lg">Get Started</button>
-
         </div>
-
         <div class="col-lg-6">
           <img class="home-image" src="images/express-feelings-with-confidence.svg" alt="iphone-mockup">
         </div>
       </div>
-
-
-
     </div>
   </section>
-  <!-- Footer -->
+ 
+   <!-- Features -->
 
-  <!-- <footer id="footer">
-    <div class="footer-images">
-      <i class="social fab fa-twitter"></i>
-      <i class="social fab fa-facebook-f"></i>
-      <i class="social fab fa-instagram"></i>
-      <a class="mail" href="mailto:tanishagupta2201@gmail.com"><i class="social fas fa-envelope"></i></a>
+   <section id="features">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 feature-box">
+          <i class="img-feature fas fa-clock fa-4x"></i>
+          <h3 class="feature-heading">Reminders</h3>
+          <p>Scheduled reminders for therapy</p>
+        </div>
+
+
+        <div class="col-lg-4 feature-box">
+          <i class="img-feature fas fa-signal fa-4x"></i>
+          <h3 class="feature-heading">Levels</h3>
+          <p>Easy to use with interactive interface.</p>
+        </div>
+
+        <div class="col-lg-4 feature-box">
+          <i class="img-feature fas fa-book-reader fa-4x"></i>
+          <h3 class="feature-heading">Tests</h3>
+          <p>Reading, Speaking Tests</p>
+        </div>
+
+      </div>
     </div>
-    <p>© Copyright 2021 NoterIT</p>
 
-  </footer> -->
+  </section>
 
-
+  <!-- Levels -->
+  <section class="levels">
+    <h2 class="levels-head">Conquer the Levels!</h2>
+    <div class="row level-section">
+      <div class="col-lg-4 stage">
+        <img class="level-img" src="/images/meditate.svg" alt="">
+        <h3>Level 1</h3>
+        <h4>You got this, just get started!</h4>
+      </div>
+      <div class="col-lg-4 stage">
+        <img class="level-img " src="/images/word.jpg" alt="">
+        <h3>Level 2</h3>
+        <h4>Word Therapy</h4>
+      </div>
+      <div class="col-lg-4 stage">
+        <img class="level-img" src="/images/sentences.svg" alt="">
+        <h3 class="step-text sub-head">Level 3</h3>
+        <h4>Repeat Sentences, Have Conversations</h4>
+      </div>
+    </div>
+  </section>
+<!-- Footer -->
+  <div id="footer" class="footer-clean">
+    <footer>
+     
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Personal Consultation</a></li>
+                        <li><a href="#">Levels</a></li>
+                        <li><a href="#">Therapy Routine</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Legacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Careers</h3>
+                    <ul>
+                        <li><a href="#">Job openings</a></li>
+                        <li><a href="#">Employee success</a></li>
+                        <li><a href="#">Benefits</a></li>
+                    </ul>
+                </div>
+                <div>
+                  <button class="btn btn-lg">Get Started</button>
+               </div>
+                <div class="col-lg-3 item social"><a href="https://github.com/tanishagupta1/Speech-ai"><i class="fab fa-github"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin"></i></a><a href="#"><i class="fab fa-instagram"></i></a>
+                    <p class="copyright">Team Aces © 2021 | Hack This Fall 2.0</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
