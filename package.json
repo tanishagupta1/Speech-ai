@@ -1,0 +1,23 @@
+{
+  "name": "HackThisFall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanishagupta1/Speech-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanishagupta1/Speech-ai/issues"
+  },
+  "homepage": "https://github.com/tanishagupta1/Speech-ai#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
