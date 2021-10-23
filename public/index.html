@@ -38,6 +38,8 @@
 
 <body>
 
+  <div id="sawo-container" style="height: 300px; width: 300px;"></div>
+  <span id="log-result" style="height: 300px; width: 300px;"></span>
   <section id="title">
 
     <!-- Nav Bar -->
@@ -104,7 +106,17 @@
 
   </footer> -->
 
+  <script src="http://websdk.sawolabs.com/sawo.min.js"></script>
+  <script>
+  function loginsuc(data) {
+    console.log(data);
+    document.getElementById("log-result").innerHTML = "Welcome " + data.identifier;
 
+  }
+  var config = {containerID: "sawo-container", identifierType: "email", apiKey: "38454eac-9b5f-4068-b8c6-18bb35b8e6ce", /*onSuccess = loginsuc(payload),*/onSuccess: (payload) => { /*console.log(payload)*/ loginsuc(payload) }, };
+  var sawo = new Sawo(config);
+  sawo.showForm();
+  </script>
 </body>
 
 </html>
