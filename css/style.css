@@ -82,6 +82,16 @@ html {
   text-align: center;
   padding-top: 23px ;
 }
+.level-link{
+    color: white;
+    text-decoration: none;
+}
+
+.level-link:hover {
+    color: #4b4c4d;
+    text-decoration:none; 
+    cursor:pointer;  
+}
 .stage {
   justify-content: center;
   align-items: center;
